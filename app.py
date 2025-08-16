@@ -31,5 +31,7 @@ def grade_ai_route():
             return jsonify({"error": f"Reference answer error: {str(e)}"}), 500
         return jsonify({"error": f"Grading error: {str(e)}"}), 500
 
+# ✅ Render requires listening on $PORT
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 10000)))
+    port = int(os.environ.get("PORT", 5000))  # default to 5000 locally
+    app.run(host="0.0.0.0", port=port)
