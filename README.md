@@ -1,3 +1,4 @@
+
 # CheckWise AI Grading System
 
 [![Python](https://img.shields.io/badge/python-3.11+-blue)](https://www.python.org/)
@@ -73,6 +74,7 @@ python app.py
 ```
 
 Open in your browser: [http://127.0.0.1:5000](http://127.0.0.1:5000)
+<img width="1920" height="1080" alt="Screenshot (111)" src="https://github.com/user-attachments/assets/66f9cd99-e2af-48e9-ace0-cb3bf44f8f8c" />
 
 ---
 
