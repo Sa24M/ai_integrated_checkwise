@@ -1,12 +1,23 @@
-pip>=25.1.1
-setuptools>=70.0.0
-wheel>=0.44.0
-
+# Web framework
 Flask==3.0.3
 Flask-Cors==5.0.0
-pandas==2.2.3 --only-binary=:all:
-sentence-transformers==3.0.1
-torch==2.4.1 --extra-index-url https://download.pytorch.org/whl/cpu
-google-generativeai==0.7.2
-python-dotenv==1.0.1
-gunicorn==23.0.0
+
+# Data processing
+pandas>=2.2.3
+
+# Machine learning / embeddings
+sentence-transformers>=3.0.1
+torch>=2.5.0
+
+# Google Generative AI
+google-generativeai>=0.7.2
+
+# Environment management
+python-dotenv>=1.0.1
+
+# WSGI server for deployment
+gunicorn>=23.0.0
+
+# Build tools (ensure pip can handle wheels)
+setuptools>=70.0.0
+wheel>=0.44.0
