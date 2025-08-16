@@ -45,8 +45,8 @@ CheckWise is an AI-powered grading system that automatically evaluates student a
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/checkwise-ai.git
-cd checkwise-ai
+git clone https://github.com/Sa24M/ai_integrated_checkwise.git
+
 ```
 
 ### 2. Install dependencies
