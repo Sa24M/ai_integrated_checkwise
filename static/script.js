@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
     let lastResults = [];
 
     // Change this when switching local ↔ deployed
-    const API_BASE_URL = "http://127.0.0.1:5000";
-    // const API_BASE_URL = "https://checkwise-backend.onrender.com";
+    // const API_BASE_URL = "http://127.0.0.1:5000";
+    const API_BASE_URL = "https://ai-integrated-checkwise.onrender.com";
 
     form.addEventListener("submit", async (e) => {
         e.preventDefault();
