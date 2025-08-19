@@ -3,7 +3,7 @@
 
 [![Python](https://img.shields.io/badge/python-3.11+-blue)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/flask-2.3-green)](https://flask.palletsprojects.com/)
-[![License](https://img.shields.io/badge/license-MIT-orange)](LICENSE)
+
 
 CheckWise is an AI-powered grading system that automatically evaluates student answers using advanced language models and semantic similarity. It generates reference answers, grades student submissions, and provides improvement suggestions.
 
@@ -94,6 +94,7 @@ Open in your browser: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 * Ready for deployment on **Render**, **Heroku**, or similar platforms
 * Uses `Procfile` and `start.sh` for production WSGI serving with **Gunicorn**
 
+Site available at : https://ai-integrated-checkwise.onrender.com
 ---
 
 ## 🧰 Technologies Used
